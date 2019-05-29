@@ -1,0 +1,27 @@
+.button{
+  color: #FFF;
+  background-color: #1DB954;
+  border-radius: 12px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+a:hover.button{
+  color:white;
+  text-decoration: none;
+  background-color:#67D861;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+
+.button2{
+  color: #1F2C3D;
+  background-color: white;
+  border-radius: 12px;
+  padding: 5px 20px;
+}
+
+a:hover.button2{
+  text-decoration: none;
+  color:#1F2C3D;
+}

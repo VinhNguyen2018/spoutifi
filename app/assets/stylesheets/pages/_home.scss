@@ -1,1 +1,22 @@
 // Specific CSS for your home-page
+.content-container {
+  padding: 48px 0;
+}
+
+.content {
+  background-color: #1F2C3D;
+  color: white;
+  // display: flex;
+  text-align:center;
+  margin: 0 auto;
+  padding:150px 252px;
+}
+
+.content p {
+  margin: 30px auto;
+}
+
+.smallparagraph {
+  font-size:8px;
+  margin-top:30px
+}
