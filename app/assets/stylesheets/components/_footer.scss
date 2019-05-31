@@ -3,7 +3,7 @@
 }
 
 .col-social {
-  display:flex;
+
 }
 
 .col-social a {
@@ -11,4 +11,44 @@
   text-decoration: none;
   font-size: 36px;
   padding: 0px 10px;
+}
+
+.nav-title{
+  text-transform:uppercase;
+  font-size:12px;
+  margin: 20px auto;
+  color:#1F2C3D;
+}
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-social{
+  float:right !important;
+  list-style: none;
+  display:flex;
+}
+
+.nav li {
+  color: #1F2C3D;
+}
+
+@media (max-width: 640px) {
+
+.nav {
+  display:block;
+}
+
+.nav-social{
+  padding:0;
+  float:left !important;
+}
+
+.footer {
+  padding: 0 0 20px;
+}
+
 }

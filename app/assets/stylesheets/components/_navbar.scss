@@ -13,7 +13,7 @@
   position: fixed;
   top:0;
   z-index:1000;
-  background-color: rgba(50, 50, 50,0.85);
+  background-color: rgba(31, 44, 61,0.85);
   height:55px;
   transition-duration: 3s;
 }
@@ -45,14 +45,15 @@
 
 
 
-@media (max-width: 575px) {
+@media (max-width: 640px) {
 
 .nav-item-avatar{
   display: none;
 }
 
 .nav-item {
-  background-color: rgba(50, 50, 50,0.8)
+  background-color: rgba(31, 44, 61,0.85);
+  width:100%;
 }
 
 .navbar-toggler {
@@ -66,8 +67,12 @@
 
 .navbar-lewagon .navbar-brand p {
   font-size:12px;
-  color:lightgrey;
+  color:white;
   padding-top: 5px;
+}
+
+.logo-navbar{
+  width:75px;
 }
 
 }
